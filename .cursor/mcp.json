@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "aiml-experiences": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "${workspaceFolder}/AIMLAPP.csproj",
+        "-c",
+        "Release",
+        "--no-build",
+        "--",
+        "--mcp"
+      ]
+    }
+  }
+}
